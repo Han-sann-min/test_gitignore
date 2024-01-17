@@ -16,3 +16,8 @@ test/
 # - .log
 
 # !important.log # 모든 log 파일을 무시하기 위해 선언했으나 ‘important.log’는 무시하지 않음
+# 모든 .log 파일 무시
+*.log
+
+# test 폴더 안에 있는 test1.log 파일은 포함
+!test/test1.log
